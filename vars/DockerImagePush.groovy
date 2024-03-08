@@ -3,7 +3,7 @@
         credentialsId: 'docker_credentials', 
         passwordVariable: 'PASS', 
         usernameVariable: 'USER')])
-        )]) {
+         {
 
           sh "docker login -u '$USER' -p '$PASS'"
          }
